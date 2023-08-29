@@ -1,0 +1,36 @@
+h4 {
+  text-align: center;
+  font-size: 40px;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.589);
+}
+body {
+  background-color: black;
+}
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  gap: 15px;
+}
+.Cards {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.524);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.card-img {
+  height: 250px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+label {
+  color: white;
+}
